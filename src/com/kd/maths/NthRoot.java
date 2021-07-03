@@ -22,6 +22,8 @@ public class NthRoot {
 	 */
 	
 	public static double underRoot(int num, int numRoot) {
+		if(num == 1)
+			return 1.0;
 		double i, precision = 0.00000001;
 		double j = 1;
 		for (i = 1; j <= num; i++) {
