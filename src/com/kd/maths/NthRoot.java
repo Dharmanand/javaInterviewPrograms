@@ -1,4 +1,4 @@
-package com.kd;
+package com.kd.maths;
 
 import java.util.Scanner;
 
