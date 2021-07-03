@@ -8,8 +8,8 @@ public class NthRoot {
 
 		System.out.println("Enter a number ::");
 		Scanner sc = new Scanner(System.in);
-		int num = sc.nextInt();
-		int numRoot = sc.nextInt();
+		double num = sc.nextDouble();
+		double numRoot = sc.nextDouble();
 
 		System.out.println("Cube root of the given number is " + underRoot(num, numRoot));
 	}
@@ -21,7 +21,7 @@ public class NthRoot {
 	 * @return under root, Example: num = 125 and noRoot = 3 then output = 5.0
 	 */
 	
-	public static double underRoot(int num, int numRoot) {
+	public static double underRoot(double num, double numRoot) {
 		if(num == 1)
 			return 1.0;
 		double i, precision = 0.00000001;
